@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+flask = "*"
+jsonify = "*"
+torch = "*"
+tensorflow = "*"
+ollama = "*"
+langchain = "*"
+pandas = "*"
+sentence-transformers = "*"
+numpy = "*"
+langchain-community = "*"
+chromadb = "*"
+faiss-cpu = "*"
+pydantic = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
+
+[scripts]
+main = "python main.py"
